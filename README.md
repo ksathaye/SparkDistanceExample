@@ -11,6 +11,7 @@ https://en.wikipedia.org/wiki/Vincenty%27s_formulae
 The script requires PySpark and Geopy packages. 
 Great circle method is non-iterative and can be vectorized.  
 This code compares the time to compute distances of:
+
 1) Great Circle method vectorized 
 
 2) Vincenty Method looped using 1 node
